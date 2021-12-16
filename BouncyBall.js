@@ -39,8 +39,8 @@ class BouncyBall{
 		// World.add(world, this.body);
 
 		
-		// this.body=Bodies(this.x, this.y, (this.r-20)/2, options)
-		// World.add(world, this.body);
+		 //this.body=Bodies(this.x, this.y, (this.r-20)/2, options)
+	     //World.add(world, this.body);
 
 	}
 	display()
@@ -53,8 +53,8 @@ class BouncyBall{
 			stroke("black");
 			fill("darkblue");
 			// ellipse(0,0,this.r, this.r);
-			 circle(0,0,this.r, this.r);
-			// rect(0,0,this.r, this.r);
+			// circle(0,0,this.r, this.r);
+			 rect(0,0,this.r, this.r);
 			// body(0,0,this.r, this.r);
 			pop()
 	}
